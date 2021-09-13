@@ -1,0 +1,83 @@
+.body1 {
+  margin: 0px;
+  background: #ffffff;
+  font-family: monospace;
+}
+h1:hover {
+  color: #1f1fca;
+}
+p:hover {
+  color: rgb(6, 129, 211);
+}
+.Head {
+  color: #9999ff;
+  font-family: "Roboto Mono", Times, serif;
+  font: 30%;
+  margin: 20px;
+  margin-top: 0px;
+}
+/* This is for Menu color */
+#menu {
+  color: #000000;
+  font-family: serif;
+}
+ul {
+  text-transform: uppercase;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+/*
+ul {
+  text-transform: uppercase;
+}
+li:first-child{
+    font-style: italic;
+    text-transform: lowercase;
+}
+li:last-child{
+    font-style:unset;
+
+}
+
+li:nth-child(9){
+    background-color: blue;
+    color:white
+}
+*/
+/* 
+#link-1:link {
+  color: rgb(122, 10, 10);
+}
+#link-1:visited {
+  color: teal;
+} */
+li + li{        /*this */
+    color:rgb(6, 18, 119)
+}
+
+/* 
+li~a{
+    color: steelblue}
+
+
+ul> li{
+    color: black;
+}
+
+ul li{
+    color: lightblue
+}
+*/
+
+
+
+/* 
+h2[class=subtitle]
+
+img[src*="../foldername"]
+
+img[src$="../foldername"]
+
+img[class~=article-substitute]
+
+
+*/
