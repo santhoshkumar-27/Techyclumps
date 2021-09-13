@@ -1,16 +1,16 @@
 .body1 {
   margin: 0px;
-  background: #ffffff;
+  background: steelblue;
   font-family: monospace;
 }
 h1:hover {
-  color: #1f1fca;
+  color: #020205;
 }
 p:hover {
-  color: rgb(6, 129, 211);
+  color: rgb(0, 0, 0);
 }
 .Head {
-  color: #9999ff;
+  color: #1d1d35;
   font-family: "Roboto Mono", Times, serif;
   font: 30%;
   margin: 20px;
@@ -53,7 +53,6 @@ li:nth-child(9){
 li + li{        /*this */
     color:rgb(6, 18, 119)
 }
-
 /* 
 li~a{
     color: steelblue}
@@ -67,9 +66,6 @@ ul li{
     color: lightblue
 }
 */
-
-
-
 /* 
 h2[class=subtitle]
 
@@ -78,6 +74,9 @@ img[src*="../foldername"]
 img[src$="../foldername"]
 
 img[class~=article-substitute]
-
-
 */
+#menu{
+   color: steelblue 
+}
+
+
