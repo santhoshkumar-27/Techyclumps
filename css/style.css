@@ -1,0 +1,57 @@
+body{
+  margin: 0px;
+  border: 2px solid rgb(100, 224, 148);
+  border-radius: 3px;
+  color: rgb(247, 247, 247);
+  /* background-image: url(../image/pic1.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monospace;
+  text-align: justify;
+}
+
+.main_head{
+  font-size: 4pc;
+  color: rgb(253, 199, 21);
+  font-family: 'Nanum Pen Script', sans-serif;
+  
+}
+.sub-1{
+  font-size: 1pc;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.wrapper1{
+  margin: 0;
+  color: #000000;
+  text-transform: uppercase;
+  /* background: linear-gradient(to right,rgba(150, 121, 84, 1), rgba(150, 121, 84, 0.1)); */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.code1{
+  align-content: content;
+}
+.container{
+  /* margin: 1pc; */
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+
+.child{
+  padding: 1%;
+  margin-right:20px;
+  border-radius: 3px;
+  background-color: rgb(201, 152, 152);
+  flex-grow:1;
+}
