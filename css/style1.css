@@ -1,13 +1,31 @@
 body {
-  margin: 20px;
+  margin: 50px;
+  border: 2px solid rgb(43, 214, 186);
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  padding: 20px;
   background-image: url(../image/pic2.jpg);
   background-repeat: repeat;
   background-size: cover;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", monospace;
+  text-align: justify;
+}
+div {
+  height: fit-content;
+  
+}
+h2{
+  display: inline-block;
+
+}
+img {
+  height: 50vh;
+  border-radius: 50px;
 }
 
 h1:hover {
   color: rgb(173, 33, 33);
+  font-weight: 100;
 }
 
 .hov1:hover {
@@ -19,18 +37,50 @@ h1:hover {
 }
 
 #menu {
-  font-family: "Roboto mono";
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
 
 .linear {
-  height: 500px;
-  width: 500px;
+  margin: 20px;
+  color: beige;
+  width: 70vw;
+  border: 2px solid rgb(193, 196, 9);
+  border-radius: 20px;
+  padding: 50px 30px;
   background: linear-gradient(90deg, rgb(68, 102, 85), rgb(5, 22, 14));
+  
 }
 
-.radial {
+/* .radial {
   height: 500px;
-  width: 500px;
+  width: 100%;
   background: radial-gradient(circle, lightblue 45%, darkgreen 55%);
+} */
+
+.link-1 {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: monospace;
+}
+
+.container{
+  color: cyan;
+  margin: 10px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;    /* inside the container */
+  align-items: baseline;         /*inside the flex*/
+
+}
+
+.container-1{
+  background-color: rgb(29, 185, 29);
+  line-height: 50px;
+  color: white;
+  width: 55px;
+  margin: 25px;
+  text-align: center;
 }
